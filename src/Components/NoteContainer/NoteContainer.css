@@ -1,0 +1,37 @@
+
+.note-container {
+    height: 110%;
+    width:100%;
+    background-image: url('https://i.pinimg.com/1200x/66/a2/81/66a281d55e6c1b51ce35d8fb06264ff3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+ 
+
+  .note-container h2 {
+
+    margin-bottom: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+
+  }
+  .note-container h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+  }
+  
+  .note-container_notes {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    overflow-y:scroll;
+ 
+
+  }
